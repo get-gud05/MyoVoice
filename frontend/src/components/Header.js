@@ -13,9 +13,9 @@ const Header = () => {
     }
   };
 
-  const handleLogin = () => {
-    alert('Login functionality coming soon!');
-  };
+  // const handleLogin = () => {
+  //   alert('Login functionality coming soon!');
+  // };
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-lg border-b border-white/10">
@@ -37,9 +37,9 @@ const Header = () => {
           <button onClick={() => scrollToSection('tech')} className="hover:text-pink-400 transition-colors">
             Technology
           </button>
-          <button onClick={handleLogin} className="bg-gradient-to-r from-indigo-500 to-pink-500 text-white font-semibold py-2 px-5 rounded-full shadow-lg hover:scale-105 transition-transform text-sm">
+          {/* <button onClick={handleLogin} className="bg-gradient-to-r from-indigo-500 to-pink-500 text-white font-semibold py-2 px-5 rounded-full shadow-lg hover:scale-105 transition-transform text-sm">
             Login
-          </button>
+          </button> */}
         </nav>
         
         <button 
@@ -65,9 +65,9 @@ const Header = () => {
             <button onClick={() => scrollToSection('tech')} className="hover:text-pink-400 transition-colors text-left">
               Technology
             </button>
-            <button onClick={handleLogin} className="bg-gradient-to-r from-indigo-500 to-pink-500 text-white font-semibold py-2 px-5 rounded-full text-center">
+            {/* <button onClick={handleLogin} className="bg-gradient-to-r from-indigo-500 to-pink-500 text-white font-semibold py-2 px-5 rounded-full text-center">
               Login
-            </button>
+            </button> */}
           </nav>
         </div>
       )}
