@@ -6,7 +6,7 @@ const TechnologySection = () => {
   const technologies = [
     { title: "React Native", description: "Cross-platform mobile app for control and customization." },
     { title: "PyTorch", description: "For training our advanced emotion detection AI models." },
-    { title: "FastAPI", description: "High-performance backend for real-time processing." },
+    { title: "Flask", description: "Lightweight Python framework powering our real-time video processing backend." },
     { title: "Google Cloud", description: "Scalable infrastructure for AI/ML and deployment." },
     { title: "ESP32-S3", description: "Powerful microcontroller for our wearable device." },
     { title: "EMG Sensors", description: "Non-invasive sensors to capture silent speech intent." }
