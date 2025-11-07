@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-// Contact Section Component
 const ContactSection = () => {
   const [formData, setFormData] = useState({
     name: '',

@@ -1,7 +1,6 @@
 import React from 'react';
-import TechCard from './TechCard'; // Import the helper component
+import TechCard from './TechCard'; 
 
-// Technology Section Component
 const TechnologySection = () => {
   const technologies = [
     { title: "React Native", description: "Cross-platform mobile app for control and customization." },

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-// Tech Card Component
 const TechCard = ({ title, description, delay = 0 }) => {
   const [isHovered, setIsHovered] = useState(false);
   

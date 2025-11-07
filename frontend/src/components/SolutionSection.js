@@ -1,7 +1,6 @@
 import React from 'react';
-import SolutionStep from './SolutionStep'; // Import the helper component
+import SolutionStep from './SolutionStep'; 
 
-// Solution Section Component
 const SolutionSection = () => {
   const steps = [
     {

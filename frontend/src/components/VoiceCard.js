@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Voice Card Component
 const VoiceCard = ({ id, title, description, isActive, onClick }) => {
   return (
     <div

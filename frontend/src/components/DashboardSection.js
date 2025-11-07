@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import VoiceCard from './VoiceCard';
 
-// Dashboard Section Component
 const DashboardSection = () => {
   const [selectedVoice, setSelectedVoice] = useState('male');
 

@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Footer Component
 const Footer = () => {
   return (
     <footer className="border-t border-white/10 py-8">

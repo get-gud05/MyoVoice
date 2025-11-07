@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Problem Section Component
 const ProblemSection = () => {
   return (
     <section id="problem" className="py-20 md:py-32 bg-neutral-900">

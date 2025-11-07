@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Solution Step Component
 const SolutionStep = ({ number, title, description, colorClass, delay = 0 }) => {
   return (
     <div className="text-center" style={{ transitionDelay: `${delay}ms` }}>

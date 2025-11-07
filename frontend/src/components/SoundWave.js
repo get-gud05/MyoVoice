@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 
-// Sound Wave Canvas Component
 const SoundWave = () => {
   const canvasRef = useRef(null);
 
@@ -17,7 +16,6 @@ const SoundWave = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
       
-      // Reinitialize particles on resize
       particles = [];
       const particleCount = Math.min(200, Math.floor(canvas.width / 10));
       const particleDistance = canvas.width / particleCount;

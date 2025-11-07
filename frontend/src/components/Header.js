@@ -37,9 +37,6 @@ const Header = () => {
           <button onClick={() => scrollToSection('tech')} className="hover:text-pink-400 transition-colors">
             Technology
           </button>
-          {/* <button onClick={handleLogin} className="bg-gradient-to-r from-indigo-500 to-pink-500 text-white font-semibold py-2 px-5 rounded-full shadow-lg hover:scale-105 transition-transform text-sm">
-            Login
-          </button> */}
         </nav>
         
         <button 

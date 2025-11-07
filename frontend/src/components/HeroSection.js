@@ -1,7 +1,6 @@
 import React from 'react';
-import SoundWave from './SoundWave'; // Import the SoundWave component
+import SoundWave from './SoundWave'; 
 
-// Hero Section Component
 const HeroSection = () => {
   const scrollToSolution = () => {
     const element = document.getElementById('solution');
@@ -22,7 +21,7 @@ const HeroSection = () => {
         </h2>
         <h3 className="mt-4 text-2xl md:text-4xl font-light text-neutral-300">Reimagined.</h3>
         <p className="mt-8 max-w-2xl mx-auto text-lg text-neutral-400">
-          MyoVoice is a revolutionary wearable device that restores a personal, emotionally expressive voice for those who have lost it, using the power of AI and intuitive muscle-sensing technology.
+          MyoVoice is a revolutionary wearable device that restores a personal, emotionally expressive voice for those who have lost it, using the power of deep learning algorithms and intuitive muscle-sensing technology.
         </p>
         <button 
           onClick={scrollToSolution}
