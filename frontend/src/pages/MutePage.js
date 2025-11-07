@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
+import MuteLipReading from "../components/MuteLipReading";
 
 export default function MutePage() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black text-white text-3xl">
-      🔇 Mute Mode Page
+    <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center">
+      <h1 className="text-3xl font-bold mb-6">Mute Page - Lip Reading Test</h1>
+      <MuteLipReading />
     </div>
   );
 }

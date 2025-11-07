@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import VoiceCard from './VoiceCard'; // Import the helper component
+import VoiceCard from './VoiceCard';
 
 // Dashboard Section Component
 const DashboardSection = () => {
@@ -61,7 +61,7 @@ const DashboardSection = () => {
           </Link>
 
           <Link
-          to="/mute"
+          to="/deaf"
           className="mt-1 inline-block bg-gradient-to-r from-indigo-500 to-pink-500 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:scale-105 transition-transform"
           >
             Deaf Mode
